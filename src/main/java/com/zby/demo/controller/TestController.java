@@ -10,6 +10,7 @@ public class TestController {
 
     @RequestMapping("/")
     String home() {
+        System.err.println("测试热部署");
         return "Hello World!";
     }
 
